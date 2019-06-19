@@ -15,6 +15,9 @@ typedef struct ArgsROI
 	char mask[PATH_MAX];
 } ArgsROI;
 
+/**
+ * @usage: ./ImageROI -s ../images/source.png -m ../images/mask.png
+ */
 int main(int argc, char **argv)
 {
 

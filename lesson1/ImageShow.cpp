@@ -12,6 +12,9 @@ using namespace std;
 const char *parse_filename(const char *path);
 int show_image(const char *path);
 
+/**
+ * @usage: ./ImageShow -s ../images/source.png
+ */
 int main(int argc, char **argv)
 {
 
