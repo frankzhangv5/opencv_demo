@@ -28,7 +28,7 @@ int main(int argc, char **argv)
 	ArgsLinearBlending argsLinearBlending;
 	memset(&argsLinearBlending, 0, sizeof(ArgsLinearBlending));
 
-	while ((ch = getopt(argc, argv, "s:a:t:b:g::h")) != -1)
+	while ((ch = getopt(argc, argv, "s:a:t:b:g:h")) != -1)
 	{
 		switch (ch)
 		{
